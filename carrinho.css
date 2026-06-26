@@ -1,0 +1,261 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+   background-color: #1B2838;
+   font-family: Arial, Helvetica, sans-serif;
+   background-image: url(fundo-de-parede-de-cimento-aspero-escuro-para-design-grafico-ou-papel-de-parede-textura-de-concreto-preta-e-azul-suja-em-estilo-vintage-o-antigo-piso-de-gesso-tem-uma-idade-misteriosa-e-aterror.avif);
+ }
+
+ .topo{
+    height: 20vh;
+    background-color: #031e41ce;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+ }
+
+ .logo{
+    position: absolute;
+
+    height: 135px;
+    width: 135px;
+}
+
+.lupa{
+    position: absolute;
+    left: 107vh;
+    height: 50px;
+    width: 50px;
+}
+
+ input{
+    width: 500px;
+    height: 50px;
+    justify-self: center;
+    border-radius: 15px;
+    border: none;
+    padding-left: 10px;
+    border-radius: 50px;
+}
+
+.icones{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 15vh;
+    color: white;
+    font-size: 22px;
+}
+
+.homem{
+    height: 33px;
+    width: 33px;
+}
+
+.carrinho{
+    height: 33px;
+    width: 33px;
+}
+
+nav{
+   background-color: #52657e;
+    padding-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    gap: 20vh;
+    height: 70px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+nav p{
+font-size: 20px;
+padding-bottom: 20px;
+}
+
+.pedidos-container{
+    min-height:70vh;
+    padding:50px 30px;
+
+    display:grid;
+    grid-template-rows:auto 1fr;
+    gap:40px;
+    padding-bottom: 30vh;
+}
+
+.pedidos-container h1{
+    color:white;
+    text-align:center;
+    font-size:3rem;
+}
+
+.area-pedidos{
+    display:grid;
+    grid-template-columns:3fr 1fr;
+    gap:20px;
+    align-items:start;
+}
+
+.lista-pedidos{
+    background:#3a4a60;
+    border-radius:50px;
+    overflow:hidden;
+
+    display:grid;
+    grid-template-rows:auto auto auto;
+}
+
+.cabecalho{
+    background:rgba(3, 30, 65, 0.808);
+    color:white;
+    padding:15px;
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr 50px;
+    height: 60px;
+    padding-left: 8vh;
+    font-size: 20px;
+}
+
+.cabecalho p{
+    padding-top: 10px;
+    
+}
+
+
+
+.item{
+    padding:15px;
+    color:white;
+    background-color: #52657e;
+    display:grid;
+    grid-template-columns:70px 2fr 1fr 1fr 50px;
+    align-items:center;
+    height: 15vh;
+}
+
+.item p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.item img{
+    width: 150px;
+    height: 110px;
+    border-radius:8px;
+    object-fit: cover;
+}
+
+.resumo{
+    background:#52657e;
+    color:white;
+    border-radius:50px;
+
+    display:grid;
+    height: 35vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.resumo div{
+    padding: 5px;
+}
+
+.cabeçalho2{
+    background:rgba(3, 30, 65, 0.808);
+    width: 490px;
+    padding: 10px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.cabeçalho2 h3{
+    padding-top: 10px;
+}
+
+.resumo p{
+    text-align:center;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.resumo button{
+    background:#f07d22;
+    color:white;
+    border:none;
+    padding:12px;
+    border-radius:50px;
+    cursor:pointer;
+    width: 450px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 12px;
+}
+
+hr{
+    height: 2px;
+    background-color: #171D25;
+    border-color: #171D25;
+}
+
+.lixeira img{
+    height: 33px;
+    width: 33px;
+}
+
+.nome{
+padding-left: 13vh;
+font-size: 20px;
+}
+
+.quant{
+    padding-left: 5vh;
+    font-size: 20px;
+}
+
+.preco{
+    font-size: 20px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+}
+
+footer{
+    background-color: #171D25;
+    padding: 30px;
+    display: grid;
+    justify-items: center;
+    gap: 10px;
+    height: 40vh;
+}
+
+.redes{
+    padding-top: 10vh;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    font-size: 30px;
+    color: white;
+    gap: 10vh   ;
+}
+
+footer p{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rd{
+    height: 50px;
+    width: 50px;
+}
